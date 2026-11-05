@@ -1,0 +1,20 @@
+Euclide Orientamento — verifica esportazione del 5 novembre 2026
+
+Sorgente originale: versione Sites 21
+Commit: df93788afcecb459c4456e05b6aa4c93852c68c9
+
+PASS: 4 test automatici del backend Python/SQLite.
+- Controllo accesso amministratore e rifiuto header di identità ChatGPT falsificati.
+- Validazione campi, consenso, origine, limite dimensione e honeypot.
+- Salvataggio, invio ripetuto senza duplicazione, limite richieste per email.
+- Escape HTML, protezione formule CSV, persistenza dopo riavvio processo.
+- Servizio file pubblici e blocco accesso a sorgenti, runtime e configurazione.
+
+PASS: controllo sintassi di tutti i JavaScript pubblici con node --check.
+PASS: riferimenti locali nell'HTML presenti nel pacchetto.
+PASS: parsing YAML Compose e collegamento volume dati.
+PASS: sintassi sh di configura.sh.
+
+NON ESEGUITO: build immagine e avvio Docker; binario Docker assente.
+NON ESEGUITO: collaudo grafico browser e tour VR/servizi esterni.
+NON INCLUSO: dati del database originale, credenziali, certificati TLS.
